@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.js"],"names":["message","console","log"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA,IAAMA,OAAO,GAAG,OAAhB;AAEAC,OAAO,CAACC,GAAR,CAAYF,OAAZ","file":"modern-js.e31bb0bc.map","sourceRoot":"..","sourcesContent":["const message = \"hello\"\n\nconsole.log(message)\n"]}
