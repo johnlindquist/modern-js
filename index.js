@@ -1,5 +1,9 @@
-const numbers = null
+const multiply = multiplier => num => multiplier * num
+const add = toAdd => num => toAdd + num
 
-const endin10 = [...(numbers || []), 10]
+const add1 = add(1)
+const mult3 = multiply(3)
 
-console.log(endin10)
+const result = add1(mult3(2))
+
+console.log(result)
