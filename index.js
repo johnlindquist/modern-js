@@ -1,23 +1,19 @@
-const greeting = "hi"
-const name = "John"
-
-const div = (strings, greeting, name) => {
-  const trimmedString = strings.map(string => string.trim()).join("")
-
-  return `<div>${greeting} 
-  
-  
-  ${trimmedString}
-
-  ${name}
-  </div>`
+if(true){
+  //escapes scope
+  var one = 1
+  //respects scope
+  let two = 2 
+  //respects scope
+  const three = 3
 }
 
-const message = div`
-${greeting}
-${name}
+//allows reassignment
+var a = "John"
+a = "Mindy"
 
-How are you today?
-`
+//allows reassignment
+let b = "John"
+b = "Mindy"
 
-console.log(message)
+//prevents reassignment (and _requires_ initial value)
+const c = "John"
