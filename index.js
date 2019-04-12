@@ -1,9 +1,26 @@
-const multiply = multiplier => num => multiplier * num
-const add = toAdd => num => toAdd + num
+const fruits = ["apple", "orange"]
+const veggies = ["celery", "carrots"]
 
-const add1 = add(1)
-const mult3 = multiply(3)
+const createPerson = name => ({
+  name
+})
 
-const result = add1(mult3(2))
+// const createPerson = name => ({
+//   name
+// })
 
-console.log(result)
+console.log(createPerson("John"))
+
+const food = [
+  ...fruits.map(name => ({
+    name,
+    type: "fruit"
+  })),
+
+  ...veggies.map(name => ({
+    name,
+    type: "veggie"
+  }))
+]
+
+console.log(food)
