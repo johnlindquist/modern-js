@@ -1,9 +1,11 @@
-const multiply = multiplier => num => multiplier * num
-const add = toAdd => num => toAdd + num
+const person = {
+  name: "John",
+  age: 37
+}
 
-const add1 = add(1)
-const mult3 = multiply(3)
+const fruit = ["apple", "orange", "banana"]
+const veggies = ["celery", "carrots"]
 
-const result = add1(mult3(2))
+const food = [...(fruit.length > 2 ? fruit : []), "chips", ...veggies]
 
-console.log(result)
+console.log(food)
